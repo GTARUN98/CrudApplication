@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/show_data"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbarSize="4dp"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/toRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:gravity="center"
+        android:text="New User? Register Here"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="186dp"
+        android:gravity="center"
+        android:text="Show Data"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/toDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:text="Delete Data"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/upload_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginBottom="283dp"
+        android:gravity="center"
+        android:text="Upload Image"
+        android:textSize="34sp" />
+
+</RelativeLayout>
